@@ -320,6 +320,9 @@ ul#nav li.current a {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
 }
+#resume .title {
+  font: 22px/30px "opensans", sans-serif;
+}
 
 /* ------------------------------------------------------------------ */
 /* e. Project Section
@@ -725,6 +728,10 @@ footer .copyright li:before {
 }
 footer .copyright li:first-child:before {
   display: none;
+}
+
+footer .copyright-message {
+  font-size: 10px;
 }
 
 /* social links */

@@ -4,7 +4,7 @@
     "occupation": "Full Stack Software Engineer",
     "description": "I am currently employed by Abrigo, where I work primarily on our ALLL (Allowance for Loan and Lease Losses), Advanced Reporting, and Insights Products",
     "image": "profilepic.jpg",
-    "bio": "Hey! I am currenly a Software Engineer at Abrigo, an Enterprise Risk Management software company in Raleigh, NC. I have been working at Abrigo since I graduated from UNC Chapel Hill, and I have been given the opportunity to work on many interesting projects. I view myself as a lifelong learner. I am currently working on teaching myself the React web framework (used to build this site), and I hope to dive more into machine learning and data science next.",
+    "bio": "Hey! I am currenly a Software Engineer at Abrigo, an Enterprise Risk Management software company in Raleigh, NC. I have been working at Abrigo since I graduated from UNC Chapel Hill, and I have been given the opportunity to work on many challenging projects. I view myself as a lifelong learner. I am currently working on teaching myself the React web framework (used to build this site), and I hope to dive more into machine learning and data science next.",
     "email": "patel14p2@gmail.com",
     "phone": "336-428-6548",
     "address": {
@@ -129,7 +129,7 @@
         "title": "Personal Portfolio",
         "category": "A React based Personal Portfolio Website",
         "image": "portfoliowebsite.jpg",
-        "url": "https://parthkpatel.github.io/personalwebsite/"
+        "url": "https://github.com/parthkpatel/personalwebsite"
       }
     ]
   },
