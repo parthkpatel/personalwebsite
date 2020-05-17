@@ -1,0 +1,143 @@
+{
+  "main": {
+    "name": "Parth Patel",
+    "occupation": "Full Stack Software Engineer",
+    "description": "I am currently employed by Abrigo, where I work primarily on our ALLL (Allowance for Loan and Lease Losses), Advanced Reporting, and Insights Products",
+    "image": "profilepic.jpg",
+    "bio": "Hey! I am currenly a Software Engineer at Abrigo, an Enterprise Risk Management software company in Raleigh, NC. I have been working at Abrigo since I graduated from UNC Chapel Hill, and I have been given the opportunity to work on many challenging projects. I view myself as a lifelong learner. I am currently working on teaching myself the React web framework (used to build this site), and I hope to dive more into machine learning and data science next.",
+    "email": "patel14p2@gmail.com",
+    "phone": "336-428-6548",
+    "address": {
+      "city": "Raleigh"
+    },
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/parth-k-patel/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/parthkpatel/",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Put something about copyrtight (https://github.com/konpa/devicon). I have been able to work with many different technologies, and I am always looking to learn more. Below are some of the ones that I have enjoyed using the most over the years.",
+    "education": [
+      {
+        "school": "University of North Carolina at Chapel Hill",
+        "degree": "BS, Computer Science | BSPH, Biostatistics | Minor, Mathematics",
+        "graduated": "May 2018",
+        "description": "During my undergraduate education at UNC, I gained a foundational understanding of the theory behind data structures, algorithms, basic web development, and databases. Additionally, my pursuits in Biostatistics and Mathematics helped me gain experience in advanced statistical computation and problem solving."
+      }
+    ],
+    "work": [
+      {
+        "id": "1",
+        "company": "Abrigo",
+        "location": "Raleigh, NC",
+        "title": "Software Engineer",
+        "years": "July 2018 - Present",
+        "description": "Currently, I work at Abrigo as a Software Engineer on our Risk team. During my time here, I have been able to work on a variety of projects in the full stack, one of which was implementing a new methodology for calculating loan probability of deafult. Some of the technologies I work with daily at Abrigo include Sql Server Management Studio, NHibernate, C# and the .NET Framework, AngularJS, HTML, CSS, and Git."
+      },
+      {
+        "id": "2",
+        "company": "SAS",
+        "location": "Cary, NC",
+        "title": "Software Development Intern",
+        "years": "May 2017 - August 2017",
+        "description": "I worked as a Software Development Intern for the Customer Intelligence team at SAS. During my time here, I worked on a cloud-based project, which utilized an internal REST API using Java in order to develop an end-to-end automation of content creation and delivery in SAS Customer Intelligence 360, the SAS Marketing Software. Additionally, I used SAS Programming to manage and display the generated data for the marketing team."
+      },
+      {
+        "id": "3",
+        "company": "SAS",
+        "location": "Cary, NC",
+        "title": "Year-Round Technical Intern",
+        "years": "May 2016 - May 2017",
+        "description": "I started off working at SAS as a Year-Round Technical Intern in Technical Support. Along with providing customer support for the SAS Analytics U products, I was able to gain experience in Software Engineering. Using C#, I was able to create a system requirements checker for customers to run on their machines, which addressed the most common problem that our customer base faced. It was through this proejct that I really learned about my passion for Software Engineering."
+      },
+      {
+        "id": "4",
+        "company": "UNC School of Medicine",
+        "location": "Chapel Hill, NC",
+        "title": "Statistical Analyst",
+        "years": "January 2016 - December 2016",
+        "description": "I worked as a Statistical Analyst in the Department of Anesthesiology, as part of a research team. The research was centered around studying the microRNA of patients that had chronic widespread pain and post-traumatic stress disorder, with the goal of identifying markers on the microRNA that contributed towards sex-dependant differences in this pain. I used SAS Programming in order to analyze the data and generate reports and charts that displayed results of the research."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "description": "I have been using Git for years. I have loved using it as my version control system for both personal projects and collaborative enhancements with my coworkers at Abrigo.",
+        "image": "git.jpg"
+      },
+      {
+        "name": "Microsoft SQL Server",
+        "description": "Since entering the professional world, I have been working with Microsoft SQL Server as our relational database management system. I have also enjoyed using MongoDB for my personal projects due to its simplicity and quick setup.",
+        "image": "microsoft-sql-server.jpg"
+      },
+      {
+        "name": "SAS",
+        "description": "I started using SAS through classes for my Biostatistics major, and I continued learning while I interned at SAS Institute. My knowledge of SAS allowed me to both get my Base Programmer certification and work on a research project that was published by SAS.",
+        "image": "sas.jpg"
+      },
+      {
+        "name": "C#",
+        "description": "I have been using C# and the .NET Framework as the backend technologies for enhancements and projects I work on at Abrigo. I was able to quickly become comfortable working in C# due to both my prior programming experience in Java.",
+        "image": "csharp.jpg"
+      },
+
+      {
+        "name": "Java",
+        "description": "Java was the first programming language I learned, and it was the language that I used for most of my college classes, including Object Oriented Programming, Data Structures, and Algorithms.",
+        "image": "java.jpg"
+      },
+      {
+        "name": "Python",
+        "description": "Although I do not have much experience with Python, the few times I have used it, I have really liked it. I hope to use Python more in the future for various projects, ranging from task automation to data analytics and machine learning.",
+        "image": "python.jpg"
+      },
+      {
+        "name": "AngularJS",
+        "description": "At Abrigo, the primary front end framework we use is AngularJS. Although I had no experience with it beforehand, it has now come the framework I am most comfortable with, as the majority of my front end development work has been done with AngularJS.",
+        "image": "angularjs.jpg"
+      },
+      {
+        "name": "React",
+        "description": "Although I have not been using React for very long, I have really enjoyed working with it so far. Due to both my desire to gain more experience with React, all of my most recent projects have used this framework. I look to continue using React in future projects.",
+        "image": "react.jpg"
+      }
+    ]
+  },
+  "projects": {
+    "projectList": [
+      {
+        "title": "Exercise Tracker",
+        "category": "A Full Stack MERN based Exercise Tacking Web App (In MVP Stage)",
+        "image": "exercisetracker.jpg",
+        "url": "https://github.com/parthkpatel/Exercise-Tracker"
+      },
+      {
+        "title": "Shopping List",
+        "category": "A Full Stack MERN based Shopping List Web App (In MVP Stage)",
+        "image": "shoppinglist.jpg",
+        "url": "https://github.com/parthkpatel/Shopping-List"
+      },
+      {
+        "title": "Personal Portfolio",
+        "category": "A React based Personal Portfolio Website",
+        "image": "portfoliowebsite.jpg",
+        "url": "https://github.com/parthkpatel/personalwebsite"
+      }
+    ]
+  },
+  "otherInterests": {
+    "generalInterests": "Outside of my love for coding and problem solving, I enjoy working on improving my photography skills. Since I also enjoy traveling, I have been trying to capture great memories through my camera. I hope to have a link to a photography portfolio here in the future! In addition, I am also passionate about all things sports, whether that means playing, watching, or analyzing sports statistics.",
+    "danceInformation": "During my time at UNC Chapel Hill, I was able to be a part of two competitive dance teams: UNC Bhangra Elite and UNC Chalkaa. As a part of these teams, I was able to travel across the conutry and compete against other dance teams. In 2017, UNC Chalkaa finished top 10 in the country, and we received and invitation to compete at the National Championship in California.",
+    "danceVideoLink": "https://www.youtube.com/watch?v=FB-whiUUIMg",
+    "cameraImage": "cameraimage.jpg",
+    "dancingImage": "dancingimage.jpg"
+  }
+}
