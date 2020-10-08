@@ -4,7 +4,7 @@
     "occupation": "Full Stack Software Engineer",
     "description": "I am currently employed by Abrigo, where I work primarily on our ALLL (Allowance for Loan and Lease Losses), Advanced Reporting, and Insights Products",
     "image": "profilepic.jpg",
-    "bio": "Hey! I am currenly a Software Engineer at Abrigo, an Enterprise Risk Management software company in Raleigh, NC. I have been working at Abrigo since I graduated from UNC Chapel Hill, and I have been given the opportunity to work on many challenging projects. I view myself as a lifelong learner. I am currently working on teaching myself the React web framework (used to build this site), and I hope to dive more into machine learning and data science next.",
+    "bio": "Hey! I am currenly a Software Engineer II at Abrigo, an Enterprise Risk Management software company in Raleigh, NC. I have been working at Abrigo since I graduated from UNC Chapel Hill, and I have been given the opportunity to work on many challenging projects. I view myself as a lifelong learner. I am currently working on teaching myself the React web framework (used to build this site), and I hope to dive more into machine learning and data science next.",
     "email": "patel14p2@gmail.com",
     "phone": "336-428-6548",
     "address": {
@@ -38,9 +38,9 @@
         "id": "1",
         "company": "Abrigo",
         "location": "Raleigh, NC",
-        "title": "Software Engineer",
+        "title": "Software Engineer II",
         "years": "July 2018 - Present",
-        "description": "Currently, I work at Abrigo as a Software Engineer on our Risk team. During my time here, I have been able to work on a variety of projects in the full stack, one of which was implementing a new methodology for calculating loan probability of deafult. Some of the technologies I work with daily at Abrigo include Sql Server Management Studio, NHibernate, C# and the .NET Framework, AngularJS, HTML, CSS, and Git."
+        "description": "Currently, I work at Abrigo as a Software Engineer II on our Risk team. During my time here, I have been able to work on a variety of projects in the full stack, one of which was implementing a new methodology for calculating loan probability of deafult. Some of the technologies I work with daily at Abrigo include Sql Server Management Studio, NHibernate, C# and the .NET Framework, AngularJS, HTML, CSS, and Git."
       },
       {
         "id": "2",
