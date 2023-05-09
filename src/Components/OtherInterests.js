@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class OtherInterests extends Component {
   render() {
     if (this.props.data) {
-      var cameraImage = process.env.PUBLIC_URL + "/images/" + this.props.data.cameraImage;
-      var dancingImage = process.env.PUBLIC_URL + "/images/" + this.props.data.dancingImage;
+      var cameraImage = "images/" + this.props.data.cameraImage;
+      var dancingImage = "images/" + this.props.data.dancingImage;
       var generalInterests = this.props.data.generalInterests;
       var danceInformationPart1 = this.props.data.danceInformationPart1;
       var danceInformationPart2 = this.props.data.danceInformationPart2;
