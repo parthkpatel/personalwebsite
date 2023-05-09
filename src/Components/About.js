@@ -5,7 +5,7 @@ class About extends Component {
     if (this.props.data) {
       var firstname = this.props.data.firstName;
       var lastname = this.props.data.lastName;
-      var profilepic = process.env.PUBLIC_URL + "/images/" + this.props.data.image;
+      var profilepic = "/images/" + this.props.data.image;
       var bio = this.props.data.bio;
       var phone = this.props.data.phone;
       var email = this.props.data.email;

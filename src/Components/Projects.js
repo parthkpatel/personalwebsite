@@ -4,7 +4,7 @@ class Projects extends Component {
   render() {
     if (this.props.data) {
       var projects = this.props.data.projectList.map(function (project) {
-        var projectImage = process.env.PUBLIC_URL + "/images/projects/" + project.image;
+        var projectImage = "/images/projects/" + project.image;
         return (
           <div key={project.title} className="columns project-item">
             <div className="item-wrap">
