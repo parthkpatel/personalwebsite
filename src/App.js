@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
 import Header from "./Components/Header";
@@ -11,19 +10,13 @@ import Projects from "./Components/Projects";
 
 class App extends Component {
   constructor(props) {
-    super(props);
-    this.state = {
-      foo: "bar",
-      resumeData: {},
-    };
-
-    ReactGA.initialize("UA-110570651-1");
-    ReactGA.pageview(window.location.pathname);
+    super();
+    this.state = { resumeData: {} };
   }
 
   getResumeData() {
     $.ajax({
-      url: "./resumeData.json",
+      url: process.env.PUBLIC_URL + "/resumeData.json",
       dataType: "json",
       cache: false,
       success: function (data) {

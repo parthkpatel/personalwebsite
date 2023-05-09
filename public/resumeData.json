@@ -1,14 +1,15 @@
 {
   "main": {
-    "name": "Parth Patel",
-    "occupation": "Full Stack Software Engineer",
-    "description": "I am currently employed by Abrigo, where I work primarily on our ALLL (Allowance for Loan and Lease Losses), Advanced Reporting, and Insights Products",
+    "firstName": "Parth",
+    "lastName": "Patel",
+    "occupation": "Software Development Engineer",
+    "description": "currently employed by Amazon, where I work within the Prime Video Organization. Take a look around my website to learn more about my work and interests",
     "image": "profilepic.jpg",
-    "bio": "Hey! I am currenly a Software Engineer II at Abrigo, an Enterprise Risk Management software company in Raleigh, NC. I have been working at Abrigo since I graduated from UNC Chapel Hill, and I have been given the opportunity to work on many challenging projects. I view myself as a lifelong learner. I am currently working on teaching myself the React web framework (used to build this site), and I hope to dive more into machine learning and data science next.",
+    "bio": "As a Software Development Engineer within the Prime Video Organization at Amazon, I have tackled numerous challenging and innovative projects since joining the company in November 2020. Prior to this, I was working as a Software Engineer II at Abrigo, an Enterprise Risk Management software company in Raleigh, NC. I view myself as a lifelong learner, and recently earned my AWS Certified Solutions Architect - Associate certification. I am passionate about leveraging my skills to enhance people's daily lives. Let's connect!",
     "email": "patel14p2@gmail.com",
     "phone": "336-428-6548",
     "address": {
-      "city": "Raleigh"
+      "city": "New York City"
     },
     "social": [
       {
@@ -24,90 +25,103 @@
     ]
   },
   "resume": {
-    "skillmessage": "I have been able to work with many different technologies, and I am always looking to learn more. Below are some of the ones that I have enjoyed using the most over the years.",
+    "skillmessage": "I have been able to work with a diverse range of technologies and programming languages, and I am always eager to expand my skillset. Below are some of the tools and languages that I have found particularly enjoyable to work with over the years.",
     "education": [
       {
         "school": "University of North Carolina at Chapel Hill",
         "degree": "BS, Computer Science | BSPH, Biostatistics | Minor, Mathematics",
         "graduated": "May 2018",
-        "description": "During my undergraduate education at UNC, I gained a foundational understanding of the theory behind data structures, algorithms, basic web development, and databases. Additionally, my pursuits in Biostatistics and Mathematics helped me gain experience in advanced statistical computation and problem solving."
+        "description": "During my undergraduate education at UNC, I gained a foundational understanding of the theory behind data structures, algorithms, web development, and databases. Additionally, my pursuits in Biostatistics and Mathematics helped me gain experience in advanced statistical computation and problem solving.",
+        "image": "unc.jpg"
       }
     ],
     "work": [
       {
         "id": "1",
-        "company": "Abrigo",
-        "location": "Raleigh, NC",
-        "title": "Software Engineer II",
-        "years": "July 2018 - Present",
-        "description": "Currently, I work at Abrigo as a Software Engineer II on our Risk team. During my time here, I have been able to work on a variety of projects in the full stack, one of which was implementing a new methodology for calculating loan probability of deafult. Some of the technologies I work with daily at Abrigo include Sql Server Management Studio, NHibernate, C# and the .NET Framework, AngularJS, HTML, CSS, and Git."
+        "company": "Amazon",
+        "location": "New York City, NY",
+        "title": "Software Development Engineer",
+        "years": "November 2020 - Present",
+        "description": "Currently, I work at Amazon as a Software Development Engineer within the Prime Video organization. My tenure at Amazon has provided me with numerous opportunities to work on diverse and challenging projects. I served as a team lead on one project, which involved building a new Top 10 service responsible for generating Top 10 Carousels on the Prime Video Storefront. Additionally, I worked on an initiative to implement a new search mechanism that significantly improved the accuracy of relevant titles on Genre-based storefront pages. During my time at Amazon, I have honed my skills in an array of technologies, including Java, React, and various AWS cloud services such as S3, DynamoDB, Lambda, CDK, CloudWatch, Athena, and QuickSight.",
+        "image": "amazon.jpg"
       },
       {
         "id": "2",
-        "company": "SAS",
-        "location": "Cary, NC",
-        "title": "Software Development Intern",
-        "years": "May 2017 - August 2017",
-        "description": "I worked as a Software Development Intern for the Customer Intelligence team at SAS. During my time here, I worked on a cloud-based project, which utilized an internal REST API using Java in order to develop an end-to-end automation of content creation and delivery in SAS Customer Intelligence 360, the SAS Marketing Software. Additionally, I used SAS Programming to manage and display the generated data for the marketing team."
+        "company": "Abrigo",
+        "location": "Raleigh, NC",
+        "title": "Software Engineer II",
+        "years": "July 2018 - November 2020",
+        "description": "I worked at Abrigo as a Software Engineer II on the Risk team.  I was involved in various full stack projects and had the opportunity to program a new methodology for calculating loan probability of default. Throughout my time at Abrigo, I regularly used a plethora of technologies such as SQL Server Management Studio, NHibernate, C#, .NET Framework, AngularJS, HTML, CSS, and Git.",
+        "image": "abrigo.jpg"
       },
       {
         "id": "3",
         "company": "SAS",
         "location": "Cary, NC",
-        "title": "Year-Round Technical Intern",
-        "years": "May 2016 - May 2017",
-        "description": "I started off working at SAS as a Year-Round Technical Intern in Technical Support. Along with providing customer support for the SAS Analytics U products, I was able to gain experience in Software Engineering. Using C#, I was able to create a system requirements checker for customers to run on their machines, which addressed the most common problem that our customer base faced. It was through this proejct that I really learned about my passion for Software Engineering."
+        "title": "Software Development Intern",
+        "years": "May 2017 - August 2017",
+        "description": "I worked as a Software Development Intern for the Customer Intelligence team at SAS. During my time here, I had the opportunity to work on an exciting cloud-based project. My work involved developing an end-to-end automation of content creation and delivery in SAS Customer Intelligence 360, the SAS Marketing Software, utilizing an internal REST API using Java. Additionally, I used SAS Programming to manage and display the generated data for the marketing team.",
+        "image": "sas.jpg"
       },
       {
         "id": "4",
+        "company": "SAS",
+        "location": "Cary, NC",
+        "title": "Year-Round Technical Intern",
+        "years": "May 2016 - May 2017",
+        "description": "I started off working at SAS as a Year-Round Technical Intern in Technical Support. Along with providing customer support for the SAS Analytics U products, I was able to gain experience in Software Engineering. Using C#, I was able to create a system requirements checker for customers to run on their machines, which addressed the most common problem that our customer base faced. It was through this project that I discovered my passion for Software Engineering.",
+        "image": "sas.jpg"
+      },
+      {
+        "id": "5",
         "company": "UNC School of Medicine",
         "location": "Chapel Hill, NC",
         "title": "Statistical Analyst",
         "years": "January 2016 - December 2016",
-        "description": "I worked as a Statistical Analyst in the Department of Anesthesiology, as part of a research team. The research was centered around studying the microRNA of patients that had chronic widespread pain and post-traumatic stress disorder, with the goal of identifying markers on the microRNA that contributed towards sex-dependant differences in this pain. I used SAS Programming in order to analyze the data and generate reports and charts that displayed results of the research."
+        "description": "I worked as a Statistical Analyst in the Department of Anesthesiology, as part of a research team. The research was centered around studying the microRNA of patients that had chronic widespread pain and post-traumatic stress disorder, with the goal of identifying markers on the microRNA that contributed towards sex-dependant differences in this pain. I used SAS Programming in order to analyze the data and generate reports and charts that displayed results of the research.",
+        "image": "unc.jpg"
       }
     ],
     "skills": [
       {
-        "name": "Git",
-        "description": "I have been using Git for years. I have loved using it as my version control system for both personal projects and collaborative enhancements with my coworkers at Abrigo.",
-        "image": "git.jpg"
+        "name": "AWS",
+        "description": "At Amazon, I gained experience with AWS technologies including S3, Lambda, and CloudWatch. I obtained the AWS Certified Solutions Architect - Associate certification to expand my AWS expertise, and am eager to apply this knowledge in future projects.",
+        "image": "aws.jpg"
       },
-      {
-        "name": "Microsoft SQL Server",
-        "description": "Since entering the professional world, I have been working with Microsoft SQL Server as our relational database management system. I have also enjoyed using MongoDB for my personal projects due to its simplicity and quick setup.",
-        "image": "microsoft-sql-server.jpg"
-      },
-      {
-        "name": "SAS",
-        "description": "I started using SAS through classes for my Biostatistics major, and I continued learning while I interned at SAS Institute. My knowledge of SAS allowed me to both get my Base Programmer certification and work on a research project that was published by SAS.",
-        "image": "sas.jpg"
-      },
-      {
-        "name": "C#",
-        "description": "I have been using C# and the .NET Framework as the backend technologies for enhancements and projects I work on at Abrigo. I was able to quickly become comfortable working in C# due to both my prior programming experience in Java.",
-        "image": "csharp.jpg"
-      },
-
       {
         "name": "Java",
-        "description": "Java was the first programming language I learned, and it was the language that I used for most of my college classes, including Object Oriented Programming, Data Structures, and Algorithms.",
+        "description": "I learned Java as my first programming language and used it extensively throughout college and at Amazon, where it is the backbone of our backend programming. Java's robustness and scalability make it an ideal choice for enterprise-level applications.",
         "image": "java.jpg"
       },
       {
         "name": "Python",
-        "description": "I have recently been gaining more experience with Python, and I have really enjoyed working with it. I hope to use Python more in the future for various projects, ranging from task automation to data analytics and machine learning.",
+        "description": "I've used Python extensively at Amazon and on personal projects, from task automation to data analytics. With its powerful versatility and straightforward syntax, Python is a pleasure to work with. I look forward to exploring its capabilities further in future projects.",
         "image": "python.jpg"
       },
       {
-        "name": "AngularJS",
-        "description": "At Abrigo, the primary front end framework we use is AngularJS. Although I had no experience with it beforehand, it has now come the framework I am most comfortable with, as the majority of my front end development work has been done with AngularJS.",
-        "image": "angularjs.jpg"
+        "name": "C#",
+        "description": "At Abrigo, I used C# and the .NET Framework as the primary backend technologies for various projects and enhancements. C# is an excellent language for building scalable and efficient applications, and I enjoyed working with it to develop robust and reliable solutions.",
+        "image": "csharp.jpg"
       },
       {
         "name": "React",
-        "description": "Although I have not been using React for very long, I have really enjoyed working with it so far. Due to both my desire to gain more experience with React, all of my most recent projects have used this framework. I look to continue using React in future projects.",
+        "description": "I gained experience with React through personal projects and at Amazon, where it is our primary frontend framework. Its component-based architecture is intuitive and efficient, making it one of my preferred frameworks for web development. I look forward to using it in future projects.",
         "image": "react.jpg"
+      },
+      {
+        "name": "AngularJS",
+        "description": "At Abrigo, I had the opportunity to work with AngularJS as our primary front-end framework. Despite having no prior work experience in front-end development, I quickly grew comfortable using AngularJS to develop complex and dynamic web applications.",
+        "image": "angularjs.jpg"
+      },
+      {
+        "name": "Microsoft SQL Server",
+        "description": "During my time at Abrigo, I used Microsoft SQL Server as our relational database management system. I have also enjoyed using MongoDB for my personal projects due to its simplicity and quick setup.",
+        "image": "microsoft-sql-server.jpg"
+      },
+      {
+        "name": "SAS",
+        "description": "I gained experience in SAS through my Biostatistics major and further developed my skills during my internship at SAS Institute. My proficiency in SAS allowed me to obtain my Base Programmer certification and collaborate on a research project that was later published by SAS.",
+        "image": "sas.jpg"
       }
     ]
   },
@@ -134,8 +148,9 @@
     ]
   },
   "otherInterests": {
-    "generalInterests": "Outside of my love for coding and problem solving, I enjoy working on improving my photography skills. Since I also enjoy traveling, I have been trying to capture great memories through my camera. I hope to have a link to a photography portfolio here in the future! In addition, I am also passionate about all things sports, whether that means playing, watching, or analyzing sports statistics.",
-    "danceInformation": "During my time at UNC Chapel Hill, I was able to be a part of two competitive dance teams: UNC Bhangra Elite and UNC Chalkaa. As a part of these teams, I was able to travel across the conutry and compete against other dance teams. In 2017, UNC Chalkaa finished top 10 in the country, and we received and invitation to compete at the National Championship in California.",
+    "generalInterests": "Aside from my love for coding and problem-solving, I enjoy refining my photography skills and capturing my travels through my lens. While my photography portfolio is a work in progress, I'm excited to share it here in the future. In addition, I am also passionate about all things sports, whether that means playing, watching, or analyzing sports statistics.",
+    "danceInformationPart1": "As a former member of two competitive dance teams, UNC Bhangra Elite and UNC Chalkaa, I traveled the country and competed against some of the most talented teams in the dance circuit. In 2017, UNC Chalkaa finished in the top 10 nationally and received an invitation to compete at the National Championship in California. ",
+    "danceInformationPart2": "Nowadays, I continue to pursue my passion for dance by attending various workshops and classes in New York City, where I have the opportunity to learn and grow as a dancer.",
     "danceVideoLink": "https://www.youtube.com/watch?v=FB-whiUUIMg",
     "cameraImage": "cameraimage.jpg",
     "dancingImage": "dancingimage.jpg"

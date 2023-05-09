@@ -3,8 +3,9 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     if (this.props.data) {
-      var name = this.props.data.name;
-      var profilepic = "images/" + this.props.data.image;
+      var firstname = this.props.data.firstName;
+      var lastname = this.props.data.lastName;
+      var profilepic = process.env.PUBLIC_URL + "/images/" + this.props.data.image;
       var bio = this.props.data.bio;
       var phone = this.props.data.phone;
       var email = this.props.data.email;
@@ -22,13 +23,12 @@ class About extends Component {
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
-
             <p>{bio}</p>
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
                 <p className="address">
-                  <span>{name}</span>
+                  <span>{firstname} {lastname}</span>
                   <br />
                   <span>{phone}</span>
                   <br />

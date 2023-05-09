@@ -3,11 +3,11 @@ import React, { Component } from "react";
 class OtherInterests extends Component {
   render() {
     if (this.props.data) {
-      var cameraImage = "images/" + this.props.data.cameraImage;
-      var dancingImage = "images/" + this.props.data.dancingImage;
-      var bio = this.props.data.bio;
+      var cameraImage = process.env.PUBLIC_URL + "/images/" + this.props.data.cameraImage;
+      var dancingImage = process.env.PUBLIC_URL + "/images/" + this.props.data.dancingImage;
       var generalInterests = this.props.data.generalInterests;
-      var danceInformation = this.props.data.danceInformation;
+      var danceInformationPart1 = this.props.data.danceInformationPart1;
+      var danceInformationPart2 = this.props.data.danceInformationPart2;
       var danceVideoLink = this.props.data.danceVideoLink;
     }
 
@@ -19,18 +19,13 @@ class OtherInterests extends Component {
           </div>
           <div className="nine columns main-col">
             <h2>Other Interests</h2>
-            <p>{bio}</p>
             <p>{generalInterests}</p>
             <p>
-              {danceInformation}{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={danceVideoLink}
-              >
-                Here
-              </a>{" "}
-              is a link to our championship performance!
+              {danceInformationPart1}
+              <a target="_blank" rel="noopener noreferrer" href={danceVideoLink}>Here</a> is a link to our championship performance!
+            </p>
+            <p>
+            {danceInformationPart2}
             </p>
           </div>
           <div className="three columns column-right">

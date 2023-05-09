@@ -5,34 +5,42 @@ class Resume extends Component {
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function (education) {
+        var educationImage = process.env.PUBLIC_URL + "/images/tech/" + education.image;
         return (
           <div key={education.school}>
-            <h3>{education.school}</h3>
-            <p className="info">{education.location}</p>
-            <p className="info">
-              {education.degree} <span>&bull;</span>
-              <em className="date">{education.graduated}</em>
-            </p>
-            <p>{education.description}</p>
+            <img className="education-image" alt={education.school} src={educationImage} />
+            <div className="education-details">
+              <h3>{education.school}</h3>
+              <p className="info">{education.location}</p>
+              <p className="info">
+                {education.degree} <span>&bull;</span>
+                <em className="date">{education.graduated}</em>
+              </p>
+              <p>{education.description}</p>
+            </div>
           </div>
         );
       });
       var work = this.props.data.work.map(function (work) {
+        var workImage = process.env.PUBLIC_URL + "/images/tech/" + work.image;
         return (
           <div key={work.id}>
-            <h3>
-              {work.company} <em className="title">- {work.title}</em>
-            </h3>
-            <p className="info">
-              {work.location}
-              <span>&bull;</span> <em className="date">{work.years}</em>
-            </p>
-            <p>{work.description}</p>
+            <img className="work-image" alt={work.company} src={workImage} />
+            <div className="work-details">
+              <h3>
+                {work.company} <em className="title">- {work.title}</em>
+              </h3>
+              <p className="info">
+                {work.location}
+                <span>&bull;</span> <em className="date">{work.years}</em>
+              </p>
+              <p>{work.description}</p>
+            </div>
           </div>
         );
       });
       var skills = this.props.data.skills.map(function (skills) {
-        var projectImage = "images/tech/" + skills.image;
+        var projectImage = process.env.PUBLIC_URL + "/images/tech/" + skills.image;
         return (
           <div key={skills.name} className="columns feature-item">
             <img className="skill" alt={skills.name} src={projectImage} />
@@ -79,6 +87,7 @@ class Resume extends Component {
           <div>
             <div className="nine columns main-col">
               <p className="lead center">{skillmessage}</p>
+              <br/>
             </div>
             <ul className="bgrid-quarters s-bgrid-thirds cf">{skills}</ul>
           </div>
