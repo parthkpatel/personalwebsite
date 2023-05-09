@@ -5,7 +5,7 @@ class Resume extends Component {
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function (education) {
-        var educationImage = "images/tech/" + education.image;
+        var educationImage = process.env.PUBLIC_URL + "/images/tech/" + education.image;
         return (
           <div key={education.school}>
             <img className="education-image" alt={education.school} src={educationImage} />
@@ -22,7 +22,7 @@ class Resume extends Component {
         );
       });
       var work = this.props.data.work.map(function (work) {
-        var workImage = "images/tech/" + work.image;
+        var workImage = process.env.PUBLIC_URL + "/images/tech/" + work.image;
         return (
           <div key={work.id}>
             <img className="work-image" alt={work.company} src={workImage} />
@@ -40,7 +40,7 @@ class Resume extends Component {
         );
       });
       var skills = this.props.data.skills.map(function (skills) {
-        var projectImage = "images/tech/" + skills.image;
+        var projectImage = process.env.PUBLIC_URL + "/images/tech/" + skills.image;
         return (
           <div key={skills.name} className="columns feature-item">
             <img className="skill" alt={skills.name} src={projectImage} />
